@@ -1,10 +1,8 @@
 * {
   font-family: "Raleway";
-  max-width: 1440px;
 }
 /*HEADER*/
 header {
-  max-width: 1440px;
   margin: auto;
 }
 .head-container {
