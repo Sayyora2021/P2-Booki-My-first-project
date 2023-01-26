@@ -1,0 +1,138 @@
+/* Style pour mobile */
+.head-container {
+  flex-direction: column;
+  padding: 0;
+}
+.nav {
+  height: auto;
+  margin: 0px 0px 20px 0px;
+}
+
+.nav_link {
+  border-top: 0;
+  border-bottom: 2px solid #f2f2f2;
+  width: 100%;
+}
+.right {
+  gap: 100px;
+  width: 100%;
+}
+
+.buttonSearch {
+  display: none;
+}
+.loupe {
+  display: flex;
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.search {
+  margin: -2px;
+  border-radius: 0px 10px 10px 0px;
+  width: 52px;
+  height: 52px;
+  color: #deebff;
+  background-color: #0065fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4px;
+}
+.loupe:hover > .search {
+  color: #0065fc;
+  background-color: #deebff;
+}
+
+.info {
+  border-radius: 20px;
+  height: 32px;
+  width: 32px;
+}
+
+.icons {
+  flex-wrap: wrap;
+}
+.texteInfo {
+  padding-right: 0px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#hotels {
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+#hotels > div {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.pop-card > img {
+  border-radius: 10px 0 0 10px;
+  width: 50%;
+  height: 150px;
+  object-fit: cover;
+}
+h3 {
+  padding: 10px;
+}
+.populaires-cards {
+  padding: 10px;
+}
+.cartes {
+  width: 100%;
+  padding: 10px;
+}
+.carteLine {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+.carte {
+  width: auto;
+  margin-bottom: 10px;
+  height: 190px;
+}
+.carte > img {
+  height: 70%;
+}
+.carteTwo {
+  display: flex;
+  flex-direction: column;
+}
+.show-plus {
+  padding: 10px;
+}
+#activités {
+  margin: 0px;
+}
+.blocActiv {
+  flex-direction: column;
+}
+.blocActiv a {
+  height: 180px;
+  width: auto;
+  margin: 10px;
+}
+.blocActiv img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 70%;
+  object-fit: cover;
+}
+.colonne {
+  gap: 0px;
+  width: 100%;
+  height: auto;
+}
+
+.liste {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+.colonneFoot {
+  margin-left: 10px;
+}

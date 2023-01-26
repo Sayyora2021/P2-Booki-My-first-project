@@ -1,0 +1,167 @@
+/* style pour tablette */
+.marglogo {
+  width: 100%;
+  display: flex;
+}
+.right {
+  gap: 100px;
+  width: 100%;
+}
+.nav_lien {
+  padding-bottom: 10px;
+}
+.nav_lien:hover {
+  border-top: none;
+  border-bottom: 1px solid blue;
+}
+.buttonSearch {
+  display: none;
+}
+.loupe {
+  display: flex;
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.search {
+  margin: -2px;
+  border-radius: 0px 10px 10px 0px;
+  width: 52px;
+  height: 52px;
+  color: #deebff;
+  background-color: #0065fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4px;
+}
+.loupe:hover > .search {
+  color: #0065fc;
+  background-color: #deebff;
+}
+
+.info {
+  border-radius: 20px;
+  height: 32px;
+  width: 32px;
+}
+
+.texteInfo {
+  padding-right: 0px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+/*--hotels--*/
+.populaires {
+  width: auto;
+  display: flex;
+  margin: 0;
+  margin-top: 10px;
+  padding: 10px;
+}
+#hotels {
+  flex-direction: column;
+  width: 100%;
+}
+.populaires-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.pop-card {
+  display: flex;
+  width: 100%;
+}
+.pop-card > img {
+  border-radius: 10px 0 0 10px;
+  height: 150px;
+  object-fit: cover;
+}
+.cartePop {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 16px lightslategrey;
+  width: 100%;
+}
+
+.ordre {
+  margin: 0.1px;
+  padding: 2px;
+}
+
+.marseille {
+  padding: 2%;
+  width: auto;
+  margin: 0;
+}
+.cartes {
+  padding: 10px;
+}
+.carteOne {
+  display: flex;
+  flex-direction: row;
+}
+.carteTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.carte {
+  margin: 2px;
+  width: 20%;
+}
+.carte > img {
+  height: 50%;
+}
+/*--activités--*/
+#activités {
+  margin-top: 0px;
+}
+.blocActiv h4 {
+  font-size: 14px;
+}
+
+.blocActiv a {
+  box-shadow: 0 0 16px lightslategrey;
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.blocActiv img {
+  border-radius: 20px 20px 0 0;
+  height: 80%;
+  object-fit: cover;
+}
+.port {
+  width: 31%;
+}
+.fort > img {
+  height: 70%;
+}
+.colonne {
+  gap: 0px;
+  height: 220px;
+  flex-direction: row;
+  width: 70%;
+}
+
+.liste {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  padding-bottom: 10px;
+}
+.colonneFoot {
+  height: 120px;
+  margin-left: 10px;
+}
+.colonneFoot p {
+  margin: 0.1px;
+}
